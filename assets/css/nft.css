@@ -85,6 +85,12 @@ margin-top: 40px;
     div.card-wrapper{
         width: 100%;
     }
+    div.card{
+        width: 100%;
+    }
+    div.card-img{
+        width: 100%;
+    }
 
 
 }
@@ -175,7 +181,7 @@ th, td {
     cursor: pointer;
     display: inline-block;
     overflow: hidden;
-    padding: 12px 24px;
+    padding: 10px 20px;
     position: relative;
     text-align: center;
     touch-action: manipulation;
