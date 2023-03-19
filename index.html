@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NFT Viewer</title>
+    <!-- <link rel="icon" type="image/x-icon" href="assets/images/08.png"> -->
+    <link rel="stylesheet" href="assets/css/nft.css">
+</head>
+
+<body>
+    <div class="header">
+        <form method ="GET" onsubmit="return getNft();">
+            <label for="wallet" id="walletlabel"><strong></strong></label>
+            <input type="text" id="wallet" name="wallet" placeholder="Wallet Number">
+            <input class="button" type="submit" value="Submit">
+        </form> 
+        <button type="button" class="button" onclick="return clearPage()">Clear</button>
+        <!-- <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#clients">Clients</a>
+        <a href="#contact">Contact</a> -->
+    </div>
+    
+    <div class="wrapper" id="wrapper">
+        
+        <div id="result"></div>
+        
+
+    </div>
+
+    <script src="assets/js/nftapi.js"></script>
+    <script>
+        
+    </script>
+
+</body>
+
+
+
+</html>

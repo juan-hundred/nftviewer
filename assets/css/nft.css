@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ 
+@font-face {
+    font-family: 'MessinaSansMonoWeb-Regular';
+    src: url('../fonts/MessinaSansMono_Web_Regular/MessinaSansMonoWeb-Regular.woff') format('woff'),
+         url('../fonts/MessinaSansMono_Web_Regular/MessinaSansMonoWeb-Regular.woff2') format('woff2');
+         font-style: normal;
+}
+
+@font-face {
+    font-family: 'FKScreamerLegacy-Slanted';
+    src: url('../fonts/FK_Screamer/FKScreamerLegacy-Slanted.woff') format('woff'),
+         url('../fonts/FK_Screamer/FKScreamerLegacy-Slanted.woff') format('woff2');
+         font-style: normal;
+}
+
+body {
+    font-family: MessinaSansMonoWeb-Regular;
+    background-color: black;
+    width: 100vw;
+    text-align: center;
+    margin: 0;
+    color: lightgray;
+    word-wrap: break-word;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+
+    
+}
+.header {
+    width: 100vw;
+    position: fixed;
+    min-height: 70px;
+    top: 0;
+    left:0;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+  }
+  
+  .header a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+  }
+  
+  .header a:hover {
+    color: #f1f1f1;
+  }
+
+#header1{
+    font-family: FKScreamerLegacy-Slanted;
+    position: absolute;
+    color: white;
+    width: 300px;
+    min-width: 302px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#header2{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    width: 100vw;
+}  
+
+@media screen and (max-width: 860px) {
+  #header2 {
+margin-top: 40px;  
+}
+#header1{
+    width: 100vw;
+    text-align: center;
+    padding: 0;
+    font-size: 2em;
+}
+}
+@media screen and (max-width: 680px) {
+    div.card-wrapper{
+        width: 100%;
+    }
+
+
+}
+
+form {
+    margin: 0;
+    display: inline-block;
+    min-width: 250px;
+
+}
+
+#result{
+    text-align: left;
+}
+
+.wrapper {
+    margin: 80px auto 0;
+    width: 90%;
+    min-height: 500px;
+    display: block;
+    text-align: center;
+}
+
+.card-wrapper{
+    width: 300px;
+    margin: 0;
+    padding: 8px;
+    display: inline-block;
+}
+
+.card {
+    margin: 4px;
+    text-align: center;
+    width: 200px;
+    border-radius: 12px;
+}
+
+.card-img{
+    display: inline-block;
+    margin: 4px;
+    padding: 0;
+    border-radius: 12px;
+    width: 200px;
+}
+
+img {
+    border-radius:12px;
+    padding: 0;
+    width: 100%;
+    box-shadow: 0px 0px 10px #888888;
+
+}
+
+.card-img:hover {
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+table {
+    table-layout:fixed;
+    width:96%;    
+    margin: 0 auto;
+    padding: 4px;
+    text-align: left;
+
+}
+th, td {
+    border-collapse: collapse;
+    padding: 2px;
+    font-size: 0.8em;
+  }
+#tdleft{
+    text-align: left;
+}
+
+#tdright{
+    text-align: right;
+}
+
+.button {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, rgb(60, 136, 187), rgb(16, 52, 107));
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 12px 24px;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    border: 0;
+    transition: box-shadow .2s;
+}
+
+.button:hover {
+    box-shadow: rgba(230, 221, 217, 0.5) 0 3px 8px;
+}
+
+input[type=text] {
+    width: 160px;
+    padding: 12px 16px;
+    margin: 8px 0;
+    border-radius: 12px;
+    color: black;
+}
+
+#wallet {
+    background-color: none;
+    border-radius: 6px;
+    color: #000000;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    border: 1px solid white;
+}
+
+label {
+    font-size: larger;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+li{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 200px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+  }
+
+  i{
+    width: 20px;
+    height:auto;
+  }
+
+  #footer1{
+    position: relative;
+    display: inline-block;
+    color: white;
+    width: 40px;
+    text-align: right;
+    padding-right: 10px;
+}    
+
+  .footer {
+    width: 100vw;
+    position: sticky;
+    bottom: 0;
+    left:0;
+    overflow: hidden;
+    padding: 10px;
+    text-align: right;
+  }
