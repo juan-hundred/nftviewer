@@ -3,20 +3,6 @@
     margin: 0;
     padding: 0;
 }
- 
-@font-face {
-    font-family: 'MessinaSansMonoWeb-Regular';
-    src: url('../fonts/MessinaSansMono_Web_Regular/MessinaSansMonoWeb-Regular.woff') format('woff'),
-         url('../fonts/MessinaSansMono_Web_Regular/MessinaSansMonoWeb-Regular.woff2') format('woff2');
-         font-style: normal;
-}
-
-@font-face {
-    font-family: 'FKScreamerLegacy-Slanted';
-    src: url('../fonts/FK_Screamer/FKScreamerLegacy-Slanted.woff') format('woff'),
-         url('../fonts/FK_Screamer/FKScreamerLegacy-Slanted.woff') format('woff2');
-         font-style: normal;
-}
 
 body {
     font-family: MessinaSansMonoWeb-Regular;
@@ -27,7 +13,6 @@ body {
     color: lightgray;
     word-wrap: break-word;
     overflow-x: hidden; /* Hide horizontal scrollbar */
-
     
 }
 .header {
@@ -54,7 +39,6 @@ body {
   }
 
 #header1{
-    font-family: FKScreamerLegacy-Slanted;
     position: absolute;
     color: white;
     width: 300px;
@@ -181,7 +165,7 @@ th, td {
     cursor: pointer;
     display: inline-block;
     overflow: hidden;
-    padding: 10px 20px;
+    padding: 6px;
     position: relative;
     text-align: center;
     touch-action: manipulation;
@@ -195,21 +179,19 @@ th, td {
 
 input[type=text] {
     width: 160px;
-    padding: 12px 16px;
     margin: 8px 0;
-    border-radius: 12px;
+    border-radius: 6px;
     color: black;
 }
 
 #wallet {
     background-color: none;
-    border-radius: 6px;
+    border-radius: 6px 0 0 6px;
     color: #000000;
     display: inline-block;
     overflow: hidden;
     position: relative;
     text-align: left;
-    border: 1px solid white;
 }
 
 label {
