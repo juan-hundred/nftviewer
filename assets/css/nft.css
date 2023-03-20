@@ -41,7 +41,8 @@ body {
 .header1{
     position: absolute;
     color: white;
-    max-width: 30vw;
+    width: 180px;
+    min-width: 160px;
     text-align: left;
     padding-left: 20px;
 }
@@ -51,7 +52,7 @@ body {
     color: white;
     text-align: center;
     width: 70vw;
-    margin-left: 30vw;
+    margin-left: 180px;
 }  
 
 @media screen and (max-width: 860px) {
