@@ -155,7 +155,7 @@ th, td {
     cursor: pointer;
     display: inline-block;
     overflow: hidden;
-    padding: 6px;
+    padding: 0 6px 6px 0;
     position: relative;
     text-align: center;
     touch-action: manipulation;
